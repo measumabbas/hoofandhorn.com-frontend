@@ -1,0 +1,16 @@
+.animal-name-des h3{
+    color: #666666;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.product-details-price h5{
+    color: #17D117;
+}
+.doctor-request-inner{
+    padding: 30px;
+}
+.doctor-request-inner input{
+    width: 100%;
+    padding: 20px;
+}

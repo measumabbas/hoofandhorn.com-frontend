@@ -1,0 +1,22 @@
+.breadcrumb{
+    font-size: 18px;
+    font-family: poppins;
+    padding-top: 20px;
+}
+
+ol{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+ol li .home{
+    text-decoration: none;
+    color: #39342f;
+}
+li .second{
+    margin-left:4px;
+}
+li .second .second-text{
+   color: #B6B6B6;
+}

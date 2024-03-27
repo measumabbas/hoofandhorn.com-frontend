@@ -1,0 +1,40 @@
+.Blog-Main-product{
+    width: 66%;
+    height: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.main-image img{
+    height: 100%;
+    width: 370px;
+    border-radius: 0.5rem;
+    padding-right: 1rem;
+}
+.text-right{
+    margin-top: 71px;
+}
+.text-right h2{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 700;
+}
+.text-right p{
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: poppins;
+    text-align: justify;
+}
+.read-more-button p{
+    color: rgb(23, 209, 23);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 600;
+
+}

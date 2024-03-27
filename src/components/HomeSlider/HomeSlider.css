@@ -1,0 +1,91 @@
+
+
+.Home-Slider-main {
+    padding: 50px 0;
+    position: relative;
+    height: 300px;
+}
+
+.Home-Slider-main h2 {
+    font-family: poppins;
+    margin: 20px 0px 40px 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.home-slider-inner {
+    width: 90%;
+    margin: auto;
+}
+
+.home-slider-inner .swiper {
+    position: static;
+    height: 100px;
+}
+
+.home-slider-inner .swiper .swiper-slide {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(253, 251, 251, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgb(190, 189, 189);
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+
+.home-slider-inner .swiper .swiper-slide:hover {
+    box-shadow: rgba(51, 50, 50, 0.2) 0px 2px 8px 0px;
+    color: rgb(23, 209, 23);
+
+}
+
+.home-slider-inner .swiper .swiper-button-next {
+    position: absolute;
+    right: 10px;
+    top: 188px;
+}
+
+.home-slider-inner .swiper .swiper-button-prev {
+    position: absolute;
+    right: 10px;
+    top: 188px;
+}
+
+.home-slider-inner .swiper .swiper-button-prev:after, .swiper-button-next:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 7px 12px;
+    border-radius: 100%;
+    color: #000;
+    font-weight: bold;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: 1px solid black;
+}
+
+.home-slider-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.home-slider-content img {
+    height: 60px;
+}
+
+
+.home-slider-content .number-description {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-slider-content .number-description h4, p {
+    font-family: poppins;
+    margin-bottom: 0px;
+}

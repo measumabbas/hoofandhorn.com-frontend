@@ -1,0 +1,114 @@
+.sidebar {
+  padding: 30px 15px;
+  padding-right: 0;
+  background: #121e31;
+  width: 278px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* height: 100vh; */
+  bottom: 0;
+  z-index: 6;
+  overflow-y: auto;
+  transition: left 0.5s;
+
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 32px;
+  height: 80vh;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 60px;
+}
+.sidebar-links::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-links::-webkit-scrollbar-track {
+  background: #1f1b4c;
+}
+
+.sidebar-links::-webkit-scrollbar-thumb {
+  background: #302a84;
+}
+
+.sidebar-single-link,
+.sidebar-drop-menu-head {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  border-radius: 5px;
+  /* box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15); */
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebar-single-link:hover,
+.sidebar-drop-menu-head:hover {
+  background: #22284f;
+  color: #fff;
+}
+
+.sidebar-drop-menu-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.side-bar-menu-option {
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+  border-bottom: 2px solid var(--Grey-2, #3c3963);
+  background: var(--Blue-off-2, #2c2955);
+  cursor: pointer;
+  display: block;
+}
+.side-bar-menu-option:hover {
+  background: var(--blue-off-1, rgba(84, 89, 255, 0.1));
+}
+.side-bar-menu-options {
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.side-bar-menu-option-active {
+  background: var(--blue-off-1, rgba(84, 89, 255, 0.1));
+  color: #fff;
+}
+
+.sidebar-link-active {
+  background: #22284f;
+  color: #fff;
+}
+
+.sidebar-close-icon {
+  display: none;
+}
+.side-bar-active {
+  left: 0;
+}
+.sidebar-deactive {
+  left: 0;
+}
+
+@media (max-width: 1150px) {
+  .sidebar {
+    width: 250px;
+  }
+}
+@media (max-width: 430px) {
+  .sidebar-close-icon {
+    display: block;
+  }
+  .sidebar-deactive {
+    left: -400px;
+  }
+}

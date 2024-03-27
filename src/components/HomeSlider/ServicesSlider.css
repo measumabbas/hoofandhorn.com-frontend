@@ -1,0 +1,101 @@
+.Service-Slider-main{
+        /* padding: 50px 0; */
+        position: relative;
+        height: 300px;
+    
+}
+.Service-Slider-main h2 {
+    font-family: poppins;
+    margin: 20px 0px 40px 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Service-list-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Service-list-header a {
+    font-family: poppins;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(23, 209, 23);
+}
+
+.Service-list-header h4 {
+    font-family: poppins;
+    margin: 0px 0px 30px 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.Service-slider-inner {
+    width: 100%;
+    margin: auto;
+}
+.Service-slider-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Service-slider-content img {
+    height: 60px;
+}
+
+
+.Service-slider-content .ads-description {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.Service-slider-content .ads-description p {
+    font-family: poppins;
+    margin-bottom: 0px;
+    color: rgb(23, 209, 23);
+    text-decoration: underline;
+}
+.Service-slider-inner .swiper {
+    position: static;
+    height: 120px;
+}
+
+
+.Service-slider-inner .swiper .swiper-slide {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(253, 251, 251, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgb(190, 189, 189);
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+.Service-slider-inner .swiper .swiper-button-next {
+    position: absolute;
+    right: -20px;
+    top: 120px;
+}
+
+.Service-slider-inner .swiper .swiper-button-prev {
+    position: absolute;
+    left: -20px;
+    top: 120px;
+}
+
+.Service-slider-inner .swiper .swiper-button-prev:after, .swiper-button-next:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 7px 12px;
+    border-radius: 100%;
+    color: #000;
+    font-weight: bold;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: 1px solid black;
+}

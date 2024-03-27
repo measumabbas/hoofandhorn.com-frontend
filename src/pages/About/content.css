@@ -1,0 +1,37 @@
+.SeoContent{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.content-head{
+    font-family: poppins;
+}
+.content-head h1{
+    font-size: 27.6px;
+    font-weight: 800;
+}
+.content-head p{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.content-head p a{
+    text-decoration: none;
+    color: black;
+}
+.content-head h5{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.content-head h2{
+    font-size: 20.6px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.content-head ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+}

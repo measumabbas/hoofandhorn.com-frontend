@@ -1,0 +1,62 @@
+.back-image{
+    background-image: url('../../../public/images/getapp.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+}
+
+.back-image .content {
+    display: flex;
+    flex-direction: row;
+
+}
+.app-head{
+    margin: auto 0 auto 62px;
+    padding-top: 49px;
+    font-family: poppins;
+}
+.app-head p{
+    width: 470px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: poppins;
+    /* height: 108px; */
+}
+/* .app-head span{
+    font-size: 18px;
+    font-family: poppins;
+} */
+/* .boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.boxes .boxA{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+ .text p{
+    font-size: 8px;
+}
+.boxes .boxB{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+} */
+
+
+.mobile{
+    margin-left: auto;
+    margin-right: auto;
+}

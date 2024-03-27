@@ -1,0 +1,506 @@
+.portal-dashboard {
+    background: var(--blue-off-3, #fff);
+    padding: 30px;
+    border-top-left-radius: 5px;
+  }
+  
+  .dashboard-stats-boxes {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .dashboard-stats-box {
+    padding: 20px;
+    border-radius: 12px;
+    background: var(--White, #22284F);
+    width: 100%;
+    /* flex: 1 1 150px; */
+    /* max-width: 400px; */
+  }
+  .dashboard-stats-box h3 {
+    color: var(--blue-off-4, #fff);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .dashboard-stats-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dashboard-stats-box h2 {
+    color: var(--Secondary, #fff);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .dashboard-stats-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .dashboard-stats-badge span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .portal-dashboard-lower-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .portal-dashboard-left-side {
+    width: 75%;
+  }
+  .portal-dashboard-right-side {
+    width: 25%;
+  }
+  .portal-dashboard-left-side-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .dashboard-heading {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .portal-dashboard-area-chart {
+    width: 100%;
+    height: 300px;
+  }
+  .graph-outer {
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 23px;
+  }
+  
+  .revenue-by-service-boxes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .revenue-by-service-box {
+    flex: 1 1 220px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+  }
+  .revenue-by-service-head {
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 1px solid var(--blue-off-1, rgba(84, 89, 255, 0.1));
+    background: var(--blue-off-3, #f8f8ff);
+  }
+  .revenue-by-service-head span {
+    color: var(--blue-off-4, #7d7eaa);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .revenue-by-service-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .revenue-by-service-option span:first-child {
+    color: var(--Grey-3, #656263);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .revenue-by-service-option span:last-child {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .revenue-by-service-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .portal-dashboard-area-chart-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .portal-dashboard-area-chart-top span {
+    color: #3c3c50;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .portal-dashboard-area-chart-top-inputs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .portal-dashboard-area-chart-top-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .portal-dashboard-area-chart-top-input label {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14.661px;
+    font-weight: 400;
+  }
+  
+  .portal-dashboard-piechart {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .portal-dashboard-piechart {
+    border-radius: 8px;
+    background: var(--White, #fff);
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .portal-today-bookings {
+    border-radius: 8px;
+    background: var(--White, #fff);
+    padding: 30px 20px;
+  }
+  .portal-today-bookings-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+  }
+  .today-bookings-badge-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .today-bookings-badge-top-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .today-bookings-badge-top-left span {
+    color: var(--blue-off-4, #7d7eaa);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .today-bookings-badge-top p {
+    color: var(--green, #30e702);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .today-bookings-badge-line {
+    width: 100%;
+    height: 6px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+  }
+  .portal-today-bookings-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .today-bookings-badge-line-inner {
+    height: 100%;
+    background-color: #5459ff;
+    border-radius: 5px;
+  }
+  @media (max-width: 1440px) {
+    .portal-dashboard-left-side {
+      width: 70%;
+    }
+    .portal-dashboard-right-side {
+      width: 30%;
+    }
+  }
+  @media (max-width: 1300px) {
+    .portal-dashboard-left-side {
+      width: 67%;
+    }
+    .portal-dashboard-right-side {
+      width: 33%;
+    }
+  }
+  @media (max-width: 1250px) {
+    .portal-dashboard {
+      padding: 20px 10px;
+    }
+    .portal-dashboard-area-chart {
+      height: 270px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .dashboard-stats-boxes {
+      grid-gap: 10px;
+    }
+    .dashboard-stats-box {
+      padding: 15px;
+    }
+    .dashboard-stats-box h3 {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .dashboard-stats-box h2 {
+      font-size: 24px;
+    }
+    .dashboard-stats-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .dashboard-stats-badge span {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 1150px) {
+    .portal-dashboard-lower-section {
+      gap: 10px;
+    }
+  }
+  @media (max-width: 1020px) {
+    .dashboard-stats-boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .portal-dashboard {
+      padding: 20px;
+    }
+  
+    .dashboard-stats-boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .dashboard-stats-box {
+      padding: 15px;
+      max-width: 187px;
+      flex: 1 1 150px;
+    }
+    .dashboard-stats-box h3 {
+      font-size: 12px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+  
+    .dashboard-stats-box h2 {
+      font-size: 16px;
+    }
+    .dashboard-stats-badge span {
+      font-weight: 500;
+    }
+  
+    .portal-dashboard-lower-section {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .portal-dashboard-left-side {
+      width: 100%;
+    }
+    .portal-dashboard-right-side {
+      width: 100%;
+      height: 515px;
+    }
+    .portal-dashboard-left-side-inner {
+      height: 800px;
+    }
+    .portal-dashboard-left-side-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .dashboard-heading {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    .portal-dashboard-area-chart {
+      width: 100%;
+      height: 300px;
+    }
+    .graph-outer {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 23px;
+    }
+  
+    .revenue-by-service-boxes {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    .revenue-by-service-box {
+      flex: 1 1 220px;
+      border-radius: 5px;
+      border: 1px solid #ebebeb;
+      background-color: #fff;
+    }
+    .revenue-by-service-head {
+      padding: 10px;
+      border-radius: 8px;
+      border-bottom: 1px solid var(--blue-off-1, rgba(84, 89, 255, 0.1));
+      background: var(--blue-off-3, #f8f8ff);
+    }
+    .revenue-by-service-head span {
+      color: var(--blue-off-4, #7d7eaa);
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .revenue-by-service-option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+    }
+    .revenue-by-service-option span:first-child {
+      color: var(--Grey-3, #656263);
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .revenue-by-service-option span:last-child {
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .revenue-by-service-content {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .portal-dashboard-area-chart-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    .portal-dashboard-area-chart-top span {
+      color: #3c3c50;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .portal-dashboard-area-chart-top-inputs {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    .portal-dashboard-area-chart-top-input {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .portal-dashboard-area-chart-top-input label {
+      color: #000;
+      font-family: Roboto;
+      font-size: 11px;
+      font-weight: 400;
+    }
+  
+    .portal-dashboard-piechart {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .portal-dashboard-piechart {
+      border-radius: 8px;
+      background: var(--White, #fff);
+      height: 300px;
+      width: 100%;
+      margin-bottom: 20px;
+      position: relative;
+      bottom: 1225px;
+    }
+  
+    .portal-today-bookings {
+      border-radius: 8px;
+      background: var(--White, #fff);
+      padding: 30px 20px;
+      position: relative;
+      bottom: 320px;
+    }
+    .portal-today-bookings-heading {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding-bottom: 10px;
+      margin-bottom: 22px;
+    }
+    .today-bookings-badge-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .today-bookings-badge-top-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .today-bookings-badge-top-left span {
+      color: var(--blue-off-4, #7d7eaa);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .today-bookings-badge-top p {
+      color: var(--green, #30e702);
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .today-bookings-badge-line {
+      width: 100%;
+      height: 6px;
+      background-color: #eeeeff;
+      border-radius: 5px;
+    }
+    .portal-today-bookings-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .today-bookings-badge-line-inner {
+      height: 100%;
+      background-color: #5459ff;
+      border-radius: 5px;
+    }
+  }
+  

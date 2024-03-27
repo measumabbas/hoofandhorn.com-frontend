@@ -1,0 +1,55 @@
+.portal-layout-right-side {
+    margin-top: 109px;
+    margin-left: 293px;
+    width: calc(100% - 293px);
+    background-color: #f8f8ff;
+    min-height: 100vh;
+  }
+  .portal-blackout-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    background: var(--Grey-2, #3c3963);
+    z-index: 2;
+    display: none;
+  }
+  .portal-blackout-show {
+    display: none;
+  }
+  .portal-blackout-hide {
+    display: none;
+  }
+  @media (max-width: 1150px) {
+    .sidebar {
+      width: 250px;
+    }
+    .portal-layout-right-side {
+      margin-left: 260px;
+      width: calc(100% - 265px);
+    }
+  }
+  @keyframes blackOutAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
+  @media (max-width: 430px) {
+    .portal-layout-right-side {
+      margin-left: 0;
+      width: 100%;
+      margin-top: 70px;
+    }
+    .portal-blackout-show {
+      display: block;
+    }
+    .portal-blackout-screen {
+      animation: blackOutAnimation 0.5s linear;
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.badge-pending,.badge-approved,.badge-cancelled{
+    background-color: #FAAD15;
+    color: #fff;
+    width: 90px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.badge-approved{
+    background-color: #55C31B;
+}
+
+.badge-cancelled{
+    background-color: #FE190C;
+}
